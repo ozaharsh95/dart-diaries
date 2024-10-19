@@ -1,30 +1,10 @@
 void main() {
-  // List
-  List<String> names = ["Raj", "Man", "Harsh"];
-  print(names);
-  print(names[0]);
-  print(names[1]);
-  print(names[2]);
-  print(names.length);
-  names.forEach((name) {
-    print(name);
-  });
+  // list
+  // 04_1_lists
 
   // Set
-  Set<String> weekday = {"Sun", "Mon", "Tue"};
-  weekday.add("Wed");
-  weekday.add("Wed");
+  // 04_2_sets
 
-  print(weekday);
-  weekday.forEach((item) {
-    print(item);
-  });
-
-  //map
-  Map<String, String> map1 = {"id": "10", "name": "Harsh"};
-  print(map1["id"]);
-  print(map1["name"]);
-  map1.forEach((key, value) {
-    print("${key} ${value}");
-  });
+  // map
+  // 04_3_maps
 }
