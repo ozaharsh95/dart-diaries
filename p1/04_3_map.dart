@@ -24,6 +24,12 @@ void main() {
   m1.remove('Mango');
   print(m1);
 
+  // all keys
+  print(m1.keys);
+
+  // all values
+  print(m1.values);
+
   // iterate
   // for each
   m1.forEach((key, value) {
